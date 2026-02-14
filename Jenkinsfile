@@ -34,7 +34,7 @@ pipeline{
             }
     
 }   
- stage('Push to Docker Hub') {
+ stage('Push ,Docker Hub') {
     steps {
         script{
             push("notes-a","latest")
