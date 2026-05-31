@@ -51,6 +51,6 @@ services:
       start_period: 60s
     networks:
       - notes-app-nw
-# to define network
+
 networks:
   notes-app-nw:
